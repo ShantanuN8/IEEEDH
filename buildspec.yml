@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build phase is not required for a static webpage"
+
+artifacts:
+  files:
+    - index.html
