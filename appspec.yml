@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /var/task
+    overwrite: true
+
+permissions:
+  - object: /
+    pattern: "**"
+    owner: root
+    group: root
