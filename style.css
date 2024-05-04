@@ -1,0 +1,44 @@
+/* Resetting default margin and padding */
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center align the body content */
+body {
+  text-align: center;
+}
+
+/* Style the heading */
+h1 {
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Style the image */
+img {
+  width: 100%; /* Make the image responsive */
+  max-width: 650px; /* Limit the maximum width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+/* Style the paragraphs */
+p {
+  margin-bottom: 20px; /* Add some space below each paragraph */
+}
+
+/* Style the unordered list */
+ul {
+  text-align: left; /* Left-align list items */
+  margin-bottom: 20px; /* Add some space below the list */
+}
+
+/* Style the list items */
+li {
+  list-style-type: disc; /* Use bullet points for list items */
+  margin-bottom: 5px; /* Add some space below each list item */
+}
+
+/* Style the link */
+a {
+  color: blue; /* Change the link color to blue */
